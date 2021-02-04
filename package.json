@@ -1,26 +1,18 @@
 {
-  "name": "discord-bot-maxtac",
+  "name": "discordbot",
   "version": "1.0.0",
-  "description": "MaxTac Discord bot",
+  "description": "Discord Bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bot": "node ./src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/3PSY0N/discord-bot.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/3PSY0N/discord-bot/issues"
-  },
-  "homepage": "https://github.com/3PSY0N/discord-bot#readme",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "node-binance-api": "^0.12.4"
   },
   "devDependencies": {
-    "eslint": "^7.18.0"
+    "eslint": "^7.19.0"
   }
 }
