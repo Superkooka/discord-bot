@@ -1,0 +1,7 @@
+{
+  "bottoken": "__discord_token_api__",
+  "binanceKey": "__binance_api_key__",
+  "binanceSecret": "__binance_api_secret__",
+  "prefix" : ".",
+  "roleModo": "806543430636273676"
+}
